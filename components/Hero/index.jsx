@@ -12,8 +12,6 @@ const Header = () => {
         <Image
           className="absolute left-0 top-0"
           src={HeaderImg}
-          width="100%"
-          height="100%"
           layout="fill"
           objectFit="cover"
           alt="HeaderImg"

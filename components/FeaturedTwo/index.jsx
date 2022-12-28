@@ -34,8 +34,6 @@ const FeaturedTwo = () => {
           <div className="anim w-24 h-52">
             <Image
               src={FeaturedTwoAnim}
-              width="100%"
-              height="100%"
               layout="fill"
               objectFit="none"
               alt="Img"

@@ -58,14 +58,7 @@ const BlogSlider = () => {
           className="absolute bottom-[7%] left-[13%] z-[-1]"
         >
           <div className="anim w-24 h-52">
-            <Image
-              src={BlogAnim1}
-              width="100%"
-              height="100%"
-              layout="fill"
-              objectFit="none"
-              alt="Img"
-            />
+            <Image src={BlogAnim1} layout="fill" objectFit="none" alt="Img" />
           </div>
         </Parallax>
         <Parallax
@@ -76,14 +69,7 @@ const BlogSlider = () => {
           className="absolute top-[7%] right-[10%] z-[-1]"
         >
           <div className="anim w-24 h-52">
-            <Image
-              src={BlogAnim2}
-              width="100%"
-              height="100%"
-              layout="fill"
-              objectFit="none"
-              alt="Img"
-            />
+            <Image src={BlogAnim2} layout="fill" objectFit="none" alt="Img" />
           </div>
         </Parallax>
       </ParallaxProvider>
